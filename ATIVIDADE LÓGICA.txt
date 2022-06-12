@@ -1,0 +1,9 @@
+
+
+
+
+      QUÍMICA         FÍSICA            MATEMÁTICA
+
+1º    SÓCRATES        ARISTÓTELES       PLATÃO
+2º    ARISTÓTELES     PLATÃO            SÓCRATES
+3º    PLATÃO          SÓCRATES          ARISTÓTELES
