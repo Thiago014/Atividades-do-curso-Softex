@@ -1,0 +1,11 @@
+
+
+A sala comeca com 25 alunos, mas com as preferências de matérias desbalanceadas. Visto que 
+na primeira imagemn tem 14 alunos que gostam de matemática e 11 de português. Após a chegada
+dos alunos novos, a sala equilibra em 18 alunos para cada matéria, e quando acontece a troca
+do aluno no quadro 3, novamente fica desbalanceada. 
+
+A forma que o professor descobre onde houve a troca de alunos foi que ele organizou a sala
+pra sempre ter tanto as linhas quanto as colunas 4 de uma matéria e 2 de outra. Na coluna e linha
+onde houve a troca, havia 4 alunos que gostavam de matemática e 2 de português. Após a troca, ficou 
+3 pra cada matéria.
