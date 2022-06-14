@@ -1,0 +1,13 @@
+
+
+Nome: caractere
+CPF: inteiro
+RG: inteiro
+Altura: real
+Endereço: caractere
+
+Nome <- José Almeida da Silva
+cpf <- 12345678900
+rg <- 9517530
+Altura <- 1,78
+Endereço <- Rua A, 380 – Centro – Recife/PE
