@@ -1,0 +1,18 @@
+﻿Algoritmo: "projeto transporte"
+Var: resp : caractere
+Início
+Escreval (“ vamos fazer algumas perguntas para identificar o transporte ”) 
+Escreval (“o meio de transporte é terrestre ?  ”)
+Leia (resp) 
+Se (resp = sim) então 
+    Escreva (“tem passageiro ? ”)
+Senão
+    Se (resp = sim ) então 
+        Escreva (“Usa trilho ? ”)
+    Senão 
+       Se (resp = sim ) entao
+          Escreval (“o transporte é um trem ! ”)
+        Fimse
+    Fimse
+Fimse
+Fimalgoritmo 
