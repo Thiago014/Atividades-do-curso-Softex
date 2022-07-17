@@ -1,0 +1,35 @@
+﻿Algoritmo "chat"
+
+Variáveis: 
+Nome: caractere
+Endereço: caractere
+Cidade: caractere 
+CPF, RG, idade,: inteiro
+Pai, mãe: caractere
+Peso: real 
+Renda: real 
+Inicio
+Escreva (“olá, sou o assistente virtual da plataforma e preciso de algumas perguntas para realizar o seu cadastro ok?”)
+Escreva (“primeiro, qual o seu nome?”)
+Leia (nome)
+Escreva (“oi”,nome, “tudo bem? E qual o seu endereço? “)
+Leia (endereço)
+Escreva (“entendi... E fica em qual cidade? “)
+Leia (cidade)
+Escreva (“ok”, nome, “pode me falar seu CPF por favor? “)
+Leia (CPF)
+Escreva (“e seu RG, qual é?”)
+Leia (RG )
+Escreva (“ peguei... Agora me fala qual a sua idade”)
+Leia (idade)
+Escreva (“certo. Qual o nome do seu Pai?”)
+Leia (pai)
+Escreva (“e o nome da sua mãe? ”)
+Leia (mãe)
+Escreva (“ me fala o seu peso agora”)
+Leia (peso)
+Escreva (“ e por último preciso saber sua renda bruta ”?)
+Leia (renda)
+Escreva (“ muito obrigado pelas informações”, nome, “vamos estar concluindo seu cadastro na plataforma nas próximas horas. Obrigado”)
+
+Fimalgoritmo 
