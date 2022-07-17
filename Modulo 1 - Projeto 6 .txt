@@ -1,0 +1,96 @@
+﻿Algoritmo "Nota"
+
+Var
+   n_aluno, n_aprovados, i, aprovados_A, aprovados_B, aprovados_C, aprovados_D, tot_aprovados: inteiro
+   maior_nota, maior_nota_A, maior_nota_B, maior_nota_C, maior_nota_D: real
+   nota_alunos: vetor[1..25]  de real
+   nome_alunos: vetor[1..25]  de caractere
+   aprovado: vetor[1..25] de logico
+   melhor_aluno, melhor_aluno_A, melhor_aluno_B, melhor_aluno_C, melhor_aluno_D, primeiro_aluno: caractere
+
+Procedimento notas()
+inicio
+    para n_aluno de 1 ate  25 faca
+           Escreva("Digite o nome do aluno(a) ",n_aluno,": ")
+           Leia(nome_alunos[n_aluno])
+           Escreva("Digite a nota do aluno(a) ",n_aluno,": ")
+           leia(nota_alunos[n_aluno])
+           Escreval
+           se nota_alunos[n_aluno] > 7 entao
+              aprovado[n_aluno] <- verdadeiro
+           senao
+                aprovado[n_aluno] <- falso
+           fimse
+           se aprovado[n_aluno] = verdadeiro entao
+              n_aprovados <- n_aprovados + 1
+           fimse
+           se n_aluno > 1 entao
+           i <- n_aluno
+           i <- i - 1
+             se nota_alunos[n_aluno] > nota_alunos[i]  entao
+                maior_nota <- nota_alunos[n_aluno]
+                melhor_aluno <- nome_alunos[n_aluno]
+             fimse
+           fimse
+      fimpara
+fimprocedimento
+Inicio
+      Escreval("--------- TURMA A ----------")
+      Escreval
+      notas()
+      aprovados_A <- n_aprovados
+      maior_nota_A <- maior_nota
+      melhor_aluno_A <- melhor_aluno
+      n_aprovados <- 0
+      
+      Escreval("--------- TURMA B ----------")
+      Escreval
+      notas()
+      aprovados_B <- n_aprovados
+      maior_nota_B <- maior_nota
+      melhor_aluno_B <- melhor_aluno
+      n_aprovados <- 0
+      
+      Escreval("--------- TURMA C ----------")
+      Escreval
+      notas()
+      aprovados_C <- n_aprovados
+      maior_nota_C <- maior_nota
+      melhor_aluno_C <- melhor_aluno
+      n_aprovados <- 0
+      
+      Escreval("--------- TURMA D ----------")
+      Escreval
+      notas()
+      aprovados_D <- n_aprovados
+      maior_nota_D <- maior_nota
+      melhor_aluno_D <- melhor_aluno
+      
+      LimpaTela
+      tot_aprovados <- aprovados_A + aprovados_B + aprovados_C + aprovados_D
+      EscrevaL("Foram aprovados no total ",tot_aprovados," alunos, sendo: ")
+      EscrevaL("Da turma A: ",aprovados_A)
+      EscrevaL("Da turma B: ",aprovados_B)
+      EscrevaL("Da turma C: ",aprovados_C)
+      EscrevaL("Da turma D: ",aprovados_D)
+      
+      EscrevaL("A maior nota da turma A foi: ",maior_nota_A," do aluno(a): ",melhor_aluno_A)
+      EscrevaL("A maior nota da turma B foi: ",maior_nota_B," do aluno(a): ",melhor_aluno_B)
+      EscrevaL("A maior nota da turma C foi: ",maior_nota_C," do aluno(a): ",melhor_aluno_C)
+      EscrevaL("A maior nota da turma D foi: ",maior_nota_D," do aluno(a): ",melhor_aluno_D)
+      
+      se (maior_nota_A > maior_nota_B) e (maior_nota_A > maior_nota_C) e (maior_nota_A > maior_nota_D) entao
+         primeiro_aluno <- melhor_aluno_A
+      fimse
+      se (maior_nota_B > maior_nota_A) e (maior_nota_B > maior_nota_C) e (maior_nota_B > maior_nota_D) entao
+         primeiro_aluno <- melhor_aluno_B
+      fimse
+      se (maior_nota_C > maior_nota_A) e (maior_nota_C > maior_nota_B) e (maior_nota_C > maior_nota_D) entao
+         primeiro_aluno <- melhor_aluno_C
+      fimse
+      se (maior_nota_D > maior_nota_A) e (maior_nota_D > maior_nota_B) e (maior_nota_D > maior_nota_C) entao
+         primeiro_aluno <- melhor_aluno_D
+      fimse
+      EscrevaL
+      EscrevaL("O aluno com a maior nota entre as turmas foi: ",primeiro_aluno)
+Fimalgoritmo
