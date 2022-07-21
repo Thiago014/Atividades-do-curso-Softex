@@ -1,0 +1,22 @@
+Algoritmo “selection sort”
+
+Var: v: vetor [0..29 ] de inteiro
+J, i, aux: inteiro
+        
+Início
+          Para i <-  0 até 29 faça
+             Escreva (“digite um valor ímpar”)
+             Leia (v[i])
+          FimPara
+
+          Para   i <-  0 até 29 faça 
+              Para J <- 0 até 28 faça 
+                Se   v[i]  >  v[j] então
+                  Aux <- v[i]
+                   V[i] <- v[j]
+                  V[j] <- aux
+                Fimse
+             Fimpara
+         Fimpara
+
+FimAlgoritmo
