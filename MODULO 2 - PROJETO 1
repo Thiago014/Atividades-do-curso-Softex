@@ -1,0 +1,36 @@
+Algoritmo "operadores"
+
+
+Var : nome_aluno: caractere
+      media, nota1, nota2 : real
+      falta: inteiro
+
+Início
+
+Escreval ("qual o nome do aluno ? ")
+Leia (nome_aluno)
+Escreval (" qual a primeira nota dele ? ")
+Leia (nota1)
+Escreval (" qual a segunda nota dele ? ")
+Leia (nota2)
+Escreval (" quantas faltas ele teve ? ")
+Leia (falta)
+
+  media <- (nota1 + nota 2) / 2
+
+   Se media < 7 então
+     Escreval ("o ", nome_aluno ," foi reprovado por media ")
+   Senão
+      Se media >= 7 então
+        Escreval ("o ", nome_aluno ," foi aprovado! ")
+      Senão
+          Se falta > 3 então
+            Escreval ("o ", nome_aluno ," foi reprovado por falta !")
+ 
+
+          Fimse
+      Fimse 
+   Fimse
+
+
+Fimalgoritmo 
