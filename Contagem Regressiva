@@ -1,0 +1,24 @@
+Algoritmo "contagem Regressiva"
+
+
+Var Cont: inteiro
+
+
+Início
+
+    Cont <- 10
+
+    Escreva ("iniciando contagem regressiva! ")
+     
+      Enquanto cont <= 0 faça
+          Escreval (Cont)
+        
+          Cont <- Cont -1
+    
+      FimEnquanto
+
+
+  Escreva (" BUUUUMMMM ")
+
+
+Fimalgoritmo
