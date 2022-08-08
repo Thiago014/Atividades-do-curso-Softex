@@ -1,0 +1,39 @@
+Algoritmo "CNH"
+
+
+Var roda, pessoas: inteiro
+   peso: real
+   cnh: CARACTERE
+
+
+Inicio
+   escreval (" quantas rodas tem o veículo? ")
+   leia (roda)
+   Escreval (" quantas pessoas cabem no veículo? ")
+   leia (pessoas)
+   escreval (" qual o peso do veículo? ")
+   leia (peso)
+
+   se roda < 3 entao
+      cnh <- A
+   senao
+      se (roda = 4) e (pessoas < 8) e  (peso < 3500) entao
+         cnh <- b
+      senao
+         se (roda >= 4) e (peso > 3500) e (peso < 6000) entao
+            cnh <- c
+         senao
+            se (roda >= 4) e (pessoas > 8) entao
+               cnh <- d
+            senao
+               se (roda>= 4) e (peso > 6000) entao
+                  cnh <- e
+               fimse
+            fimse
+         fimse
+      fimse
+   fimse
+
+     escreva (" a carteira adequada é ", cnh )
+
+Fimalgoritmo
