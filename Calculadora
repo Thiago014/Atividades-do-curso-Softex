@@ -1,0 +1,50 @@
+Algoritmo "calculadora"
+
+
+Var: n1, n2, op: inteiro
+
+
+Início 
+     Escreva (" digite um número: ")
+     Leia (n1)
+     Escreva (" digite outro número: ")
+     Leia (n2)
+     
+     Soma <- n1 + n2
+     Sub <- n1 - n2
+     Div <- n1 / n2
+     Mult <- n1 * n2
+
+
+     Função calc (n1, n2, op) inteiro
+
+     Se op=1 entao
+       Retorne soma
+       Senão
+     
+        Se op=2 entao
+          Retorne sub
+          Senao
+
+           Se op=3 entao
+             Retorne div
+             Senao 
+
+             Se op=4 entao
+               Retorne mult
+             Fimse
+           Fimse
+        Fimse
+     Fimse
+
+
+FimAlgoritmo
+
+
+
+
+
+     
+   
+     
+    
