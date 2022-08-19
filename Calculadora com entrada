@@ -1,0 +1,53 @@
+def calc (n1, n2, op): 
+
+if (op == 1):
+	return soma
+elif (op==2): 
+	return sub
+elif (op==3):
+	return mult
+elif (op==4): 
+	return div
+elif (op==0):
+	return sair
+  else 
+  	return ('essa opcao nao existe')
+  	
+  soma= n1 + n2
+  sub = n1 - n2
+  mult = n1 * n2
+  div = n1 / n2
+
+input ('digite a operacao: '): 
+op = (input ())
+
+	if (op == 0 ):
+		print ('Fim')
+	while op !=0: 
+	
+	    if (op == 0): 
+         print('Fim.') 
+     if (op>4): 
+         print("Essa opção não existe.") 
+         print("Digite a operação: \n1-soma \n2-subtração \n3-multiplicação \n4-divisão \n0-sair\n") 
+         op = int(input()) 
+         if (op == 0): 
+             print("Fim.") 
+     if (op<0): 
+         print("Essa opção não existe.") 
+         print("Digite a operação: \n1-soma \n2-subtração \n3-multiplicação \n4-divisão \n0-sair\n") 
+         op =(input ()) 
+         if (op == 0): 
+             print('Fim.') 
+     else: 
+  
+         print("Digite o primeiro valor:") 
+         n1 = int(input()) 
+         print("Digite o segundo valor:") 
+         n2 = int(input())
+        resultado = calc(n1, n2, op) 
+         print("Resultado: ", resultado, "") 
+         print("Digite a operação: \n1-soma \n2-subtração \n3-multiplicação \n4-divisão \n0-sair\n") 
+         op = int(input()) 
+         if (op == 0): 
+             print('Fim.')
