@@ -1,0 +1,24 @@
+def idade(ano): 
+   if(ano>=1922 and ano<=2021): 
+     ano = 2022-ano 
+     return ano 
+   else: return ("Ano digitado incorreto.")     
+  
+ anocerto=False 
+ 
+  while(anocerto==False): 
+   try: 
+     print("Digite o seu nome complrto: ") 
+     nome= string (input()) 
+     print("Digite seu ano de nascimento: ") 
+     ano=int (input()) 
+     if(ano>=1922 and ano<=2021): 
+       anocorreto=True 
+       print("Seu nome é " + string (nome)) 
+       print("sua idade em 2022 é " + string(idade(ano)) + " anos.") 
+    
+      else: 
+       print(string (idade(ano))) 
+  
+    except: 
+     print("Dados incorretos.")
