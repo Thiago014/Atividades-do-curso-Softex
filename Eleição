@@ -1,0 +1,45 @@
+Algoritmo "eleição"
+
+Var
+
+
+Procedimento eleição ()
+Início 
+     Escreval (" em qual candidato deseja votar? ")
+     Leia (voto)
+        
+     Escolha (voto)
+        
+     Caso 1
+       Se (voto = 889) então 
+           Votox <- votox + 1
+       Fimse
+
+     Caso 2
+       Se (voto = 847) então 
+           Votoy <- votoy + 1
+       Fimse
+
+     Caso 3
+        Se (voto = 515) então
+           Votoz <- votoz + 1
+        Fimse
+
+     Caso 4
+        Se (voto = 0) então 
+         Branco <- branco + 1
+         Nulo <- nulo + 1
+        Fimse
+     
+     Casocontrario
+         Nulo<- nulo + 1
+        Escreva ("deseja votar novamente ? S/N ") 
+        Leia (resp)
+    
+     Fimescolha
+
+ Fimprocedimento
+
+      Se (resp = S) entao
+        Procedimento voto ()
+      Fimse
