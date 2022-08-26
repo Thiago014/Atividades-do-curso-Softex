@@ -1,0 +1,12 @@
+Os Grafos são estruturas que estudam o relacionamento
+e aperfeiçoamento dos objetos de um conjunto.
+
+Um exemplo de como os grafos estão inseridos na tecnologia
+é em novembro, quando chega a Black Friday. Uma época de grande expectativa
+por parte dos consumidores para compra de produtos no varejo principalmente
+pela internet. A loja precisa mapear informações do tráfego dos clientes
+Para aumentar suas vendas. Com os Grafos ela pode procurar conexões de clientes
+Que compraram um produto x e um y.
+
+Outro exemplo é com as redes sociais que se utilizam dos grafos para indicar pessoas
+para fazer parte do seu círculo social e detectar bots nas redes.
