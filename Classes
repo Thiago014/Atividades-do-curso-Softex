@@ -1,0 +1,56 @@
+Objeto: ventilador
+
+Atributos
+
+Cor: preto
+Voltagem: 220w
+Tamanho: 40 cm
+
+Métodos
+
+Ligar
+Desligar
+Alterar velocidade 
+
+Objeto: televisão
+
+Atributos
+
+Polegadas: 43
+Marca: LG
+Modelo: Smart TV LED 43" LG ThinQ AI 4K HDR 
+
+Métodos
+
+Aumentar volume
+Mudar canal
+Conectar wi-fi 
+
+Objeto: exercício
+
+Atributos
+
+Tipo: corrida
+Duração: 12 minutos
+Velocidade: 8km/H
+
+Métodos
+
+Corrida em voltas
+Tiro livre
+Escalonado
+
+Objeto: filme
+
+Atributos
+
+Gênero: comédia
+Duração: 2h 12min
+Lançamento: 1997
+
+Métodos
+
+Passar cenas
+Pausar
+Retornar 
+
