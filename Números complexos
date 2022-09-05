@@ -1,0 +1,36 @@
+print('digite a parte real de um número complexo: ') 
+a =(input()) 
+print('digite a parte imaginaria: ') 
+b =(input()) 
+x =(a,b) 
+print(x) 
+  
+print('digite a parte real de outro número complexo: ') 
+c = float(input()) 
+print('digite agora a parte imaginária: ') 
+d = float(input()) 
+y =(c,d) 
+print(y) 
+  
+print('digite a parte real de outro número complexo: ') 
+e = float(input()) 
+print('digite agora a parte imaginária: ')
+f = float(input()) 
+z =(e,f) 
+print(z) 
+
+sub = x - y - z 
+print('parte real:' + string(sub.real)) 
+print('parte imaginaria: ' + string(sub.imag)) 
+
+soma = x + y + z 
+print('parte real:' + string(soma.real)) 
+print('parte imaginaria: ' + string(soma.imag)) 
+ 
+mult = x * y * z 
+print('parte real:' + string(mult.real)) 
+print('parte imaginaria: ' + string(mult.imag)) 
+ 
+div = x / y
+print('parte real:' + string(div.real)) 
+print('parte imaginaria: ' + string(div.imag))
