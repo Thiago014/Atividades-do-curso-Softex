@@ -1,0 +1,18 @@
+     
+         int i, 
+         tam= 22; 
+         char *nome; 
+          
+         nome = (char *) malloc (tam * size of (char)); 
+          
+         nome = "teste"; 
+          
+         nome = (char *) realloc (NULL,22* size of (char)); 
+          
+         nome = "teste 2"; 
+         printf("\n\t%s", nome); 
+          
+         free(nome); 
+          
+         printf("nome");
+         Return 0;
