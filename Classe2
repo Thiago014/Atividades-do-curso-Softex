@@ -1,0 +1,19 @@
+Class moto {
+Marca
+Modelo
+Cilindrada
+Static n_motos = 0
+
+Construtor (marca, cilindrada)
+This.marca=marca
+This.modelo=modelo
+This.cilindrada= cilindrada 
+N_motos= n_motos+1
+
+Moto1= moto('yamaha', 'crosser' , '160cc')
+Moto1.acelerar ( )
+Moto1.frear ( )
+Moto2= moto ('kawasaki' , 'ninja' , '300cc' )
+Moto2.acelerar ( )
+Moto2.frear ( )
+}
