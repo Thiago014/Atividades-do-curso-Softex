@@ -1,0 +1,10 @@
+Import dados.clientes
+package br.com.microsoft
+  
+ public class Empresa { 
+  public static void main(String[] args) { 
+   System.out.printLn("informações dos clientes das plataformas"); 
+  }
+
+}
+
