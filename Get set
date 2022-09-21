@@ -1,0 +1,12 @@
+class idade(): 
+Def _init_(self, idade_pessoa): 
+self.idade = idade_pessoa
+  
+def get_idade_pessoa (self): 
+return self.idade
+  
+Def set_valor(self, idade_pessoa): 
+self.idade = idade_pesoa
+  
+Idade = idade(25) 
+print('idade da pessoa:', idade.get_valor()) 
