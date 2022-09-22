@@ -1,0 +1,55 @@
+Algoritmo "conversor de número"
+
+var
+   numero : inteiro
+   convertido : caractere
+inicio
+   escreval("Digite um número qualquer:")
+   leia(numero)
+   convertido <- NumpCarac(numero)
+   escreval("o número convertido para caractere é ", convertido)
+fimalgoritmo
+
+
+
+Algoritmo "separador de datas"
+
+var
+   x, y, z : real
+   data, dia, mes, ano: caractere
+inicio
+
+Escreval("Digite uma data:")
+  leia (data)
+dia <- copia(data;1;2)
+Mes <- copia(data;4;2)
+ano <- copia(data;7;4)
+   escreval("Dia: " + dia)
+   escreval("Mês: " + mes)
+   escreval("Ano: " + ano)
+
+fimalgoritmo
+
+
+
+
+
+
+Algoritmo "cont letras"
+
+Var palavra: caractere
+    N: inteiro
+
+Início
+
+Escreval ("digite uma palavra qualquer: ")
+Leia (palavra)
+Escreval ("Vamos descobrir quantas letras tem na palavra")
+
+N <- compr(palavra)
+
+Escreval (" a palavra tem ",n ," letras. ")
+
+Fimalgoritmo
+
+
