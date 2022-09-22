@@ -1,0 +1,29 @@
+Serialização
+   
+
+ public static void (ArrayList<Object> lista, String arquivo) {
+      File arq = new File(arquivo);
+   
+     ObjectOutputStream objOutput = new ObjectOutputStream(new FileOutputStream(arquivo));
+     objOutput.writeObject(lista);
+     objOutput.close();
+
+Desserialização
+
+ public static ArrayList<Object> lerArquivoBinario(String arquivo) {
+      ArrayList<Object> lista = new ArrayList();
+      try {
+        File arq = new File(arquivo);
+        if (arq.exists()) {
+           ObjectInputStream objInput = new ObjectInputStream(new FileInputStream(arq));
+           lista = (ArrayList<Object>)objInput.readObject();
+           objInput.close();
+        }
+      } catch(IOException erro1) {
+          System.out.printf("Erro: %s", erro1.getMessage());
+      } catch(ClassNotFoundException erro2) {
+          System.out.printf("Erro: %s", erro2.getMessage());
+      }
+   
+      return(lista);
+    }
