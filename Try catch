@@ -1,0 +1,11 @@
+public class operação 
+ public static void main(String[] args){ 
+  
+ try { 
+   System.out.println(realizar operação 20/0) 
+  
+ } catch (Exception) { 
+   System.out.println(ops! Ocorreu um erro na operação: " + excecao.getMassage()); 
+    } 
+  System.out.println("Finalizado"); 
+  }
