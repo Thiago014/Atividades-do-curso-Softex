@@ -1,0 +1,6 @@
+O padrão singleton é um dos padrões de projeto mais simples em Java. 
+Esse tipo de padrão de design está sob o padrão criacional
+pois esse padrão fornece uma das melhores maneiras de criar um objeto.
+
+Esse padrão envolve uma única classe que é responsável por criar um objeto enquanto garante que apenas um único objeto seja criado.
+Essa classe fornece uma maneira de acessar seu único objeto que pode ser acessado diretamente sem a necessidade de instanciar o objeto da classe.
