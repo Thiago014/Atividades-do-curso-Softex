@@ -1,0 +1,11 @@
+1º Exemplo
+Site: Youtube.com
+
+ao inspecionar o lemento do site do youtube, clicando no botão <span class gsok_a gsst_e" id "gs_ok50"> abre-se o teclado virtual para pesquisas no site
+
+
+2º exemplo
+Site: Sofascore.com
+
+Ao inspecionar o elemento do site do Sofascore, clicando na tag <button aria-label="" class="react-calendar__navigation__arrow react-calendar__navigation__next-button"  type="button">›</button>
+altera-se o calendário do mês para ver as partidas dos jogos no mês escolhido
