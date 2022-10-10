@@ -1,0 +1,8 @@
+O padrão Builder é um modelo de projeto para criação de objetos complexos passo a passo que permite a criação de varios e diferentes tipos representados usando o mesmo esquema de código.
+O padrão Builder sugere que você extraia o código de construção do objeto para fora de sua própria classe e mova ele para objetos separados chamados builders.
+os Prós desse padrão são que pode-se construir passo a passo, pular etapas ou fazer simultaneamente. 
+Princípio de responsabilidade única. Você pode isolar um código de construção complexo da lógica de negócio do produto.
+O contra é que cada vez que precisa criar varias classes novas, o código fica mais complexo de se realizar
+
+
+referências: https://refactoring.guru/pt-br/design-patterns/builder ; https://www.tutorialspoint.com/design_pattern/builder_pattern.html
